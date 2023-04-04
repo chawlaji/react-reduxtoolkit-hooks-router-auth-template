@@ -1,0 +1,49 @@
+.kanun-form * {
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+.kanun-form label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.kanun-form input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+::placeholder {
+  color: #00000062;
+}
+.kanun-form .error {
+  border: 1px solid red;
+}
+.kanun-form .error-label {
+  position: absolute;
+  font-size: smaller;
+  color: red;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.kanun-form Button {
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(269deg, #74a6f3 10%, #4c6fe0 100%);
+}
+
+.kanun-form Button:hover {
+  transform: scale(0.9);
+}

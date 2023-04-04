@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+}
+.navbar .logo a {
+  text-decoration: none;
+  font-size: 2.1em;
+  color: #000;
+}
+.buttons {
+  display: flex;
+}
+ .navbar .buttons Button {
+  border-radius: 0.5em;
+  margin: 0 8px;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(269deg, #74a6f3 10%, #4c6fe0 100%);
+} 
+
+.navbar .buttons Button:hover {
+  transform: scale(0.90);
+}
